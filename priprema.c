@@ -5,7 +5,7 @@
 
 //void gen_arr( float V[], int n, float dg, float gg);
 
-
+// function for generating array
 void gen_arr(float V[], int n, float dg, float gg){
 	srand(time(NULL));
 	printf("%f %f", dg, gg);
@@ -21,7 +21,7 @@ int sekv_pret(float V[], int n, float x){
 			return i;
 		}
 	}
-	return -1;
+	return -1;        // if false then it will return -1
 }
 
 
